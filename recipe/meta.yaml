@@ -1,5 +1,5 @@
 {% set name = "quantum-xir" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/XanaduAI/xir/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 3c8a59c31ac037b9d37591b8018c6b509f75bbdf2c018879092ff1f70bcacbe9
+  sha256: 16b75c5bf37cee170c6a3309386def86f23ba527638a3493a1a3db5f1c61107e
 
 build:
   number: 0
